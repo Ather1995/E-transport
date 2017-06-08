@@ -26,7 +26,7 @@ public class MessageLoginActivity extends BaseActivity implements View.OnClickLi
     private Drawable background_theme;
     private Drawable background_gray;
     private EditText et_pw;
-    private LinearLayout button_verify;
+    private LinearLayout button_verify;//nothing
     public static final String BACK_STATE_NOLOGIN="NOLOGIN";
     public static final String BACK_STATE_LOGIN="LOGIN";
     private CountDownHandler cdh=new CountDownHandler(new WeakReference<BaseActivity>(this),"MessageLoginActivity");
